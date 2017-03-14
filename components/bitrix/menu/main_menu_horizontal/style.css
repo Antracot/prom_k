@@ -1,0 +1,64 @@
+/*
+#
+# 	—“»À» √À¿¬ÕŒ√Œ Ã≈Õﬁ — ¬€œ¿ƒ¿ﬁŸ»Ã —œ»— ŒÃ
+#
+*/
+.menu-border {
+	background: url("../../../../images/patterns/form_border.gif");
+	padding:15px;
+	-moz-box-shadow: 0 0 8px rgba(10,10,10,0.5); 
+	-webkit-box-shadow: 0 0 8px rgba(10,10,10,0.5); 
+	box-shadow: 0px 13px 40px rgba(10, 10, 10, 0.75);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	top: -1px;
+	left:0px;
+	z-index:200;
+	position:absolute;
+}
+
+.main-menu{
+	margin-top:25px;
+}
+ul.main-menu li {
+	display:inline;
+	margin-right: 15px;
+}
+.main-menu a {
+	text-decoration:none;
+	font: 19pt Cambria, "Times New Roman", Arial;
+}
+ul.main-menu li a {
+	color:#d80000;
+	background: url("../../../../images/buttons/menu_list.png") no-repeat scroll 0px 0px;
+	height: 18px;
+	margin: 0px;
+	padding-left: 30px;
+	position: absolute;
+	line-height: 16px;
+}
+ul.main-menu li a:hover {
+	color:#d82222;
+	background: url("../../../../images/buttons/menu_list.png") no-repeat scroll 0px -18px;
+}
+ul.main-menu li a:active {
+	background: url("../../../../images/buttons/menu_list.png") no-repeat scroll 0px -36px;
+}
+.main-menu a:hover {
+	text-decoration:underline;
+}
+.top-menu {
+	background: url("../../../../images/patterns/form_bg.jpg");
+	padding:10px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	top: -1px;
+	left:0px;
+	z-index:200;
+}
+.menu-size {
+//	width: 450px; 
+//height:350px;
+}

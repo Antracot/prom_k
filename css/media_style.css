@@ -1,0 +1,274 @@
+@media (max-width: 600px){
+	
+
+	html, body{
+		overflow-x: hidden;
+		/*position: fixed;*/
+		/*display: none;*/
+		height: auto;
+	}
+
+	/*************** HEADER ***************/
+	.container{
+		width: 320px;
+		margin: 0;
+
+	}
+
+	.main-phone{
+		/*width: 250px;*/
+		/*float: left;*/
+		/*background-color: pink;*/
+	}
+	#main-phone{
+		/*background-color: green;*/
+		float: none;
+		margin: -15px auto;
+	}
+	#fisrt_main-phone{
+		margin-top: 15px;
+	}
+
+	#head_mail01{
+		float: left;
+		text-align:  center;
+		/*display: none;*/
+		/*position: absolute;*/
+		left: 0;
+		right: 0;
+		width: 102%;
+		padding-top: 10px;
+		margin: 0 auto;
+	}
+	.head_mail span b{
+		font-size: 1.5em;
+		/*display: none;*/
+		/*width: 100%;*/
+		/*background-color: yellow;*/
+	}
+	#head_mail02{
+		display: none;
+	}
+	#head_mail03{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.logo{
+		transform: scale(1.5);
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 85px auto;
+		/*background-color: green;*/
+		width: 50%;
+	}
+	.logo img{
+		/*margin-left: 20%;*/
+	}
+	.head_mail{
+		margin-top: 0px;
+	}
+
+	.main-header{
+		/*display: none;*/
+		margin-top: 250px;
+		text-align: center;
+		margin-left: 0px;
+		font-size: 19pt;
+	}
+
+	.top{
+	}
+	.banner{
+		/*display: none;*/
+		background: none;
+	}
+	.banner-rotator{
+		margin-top: 35px;
+		height: 104px;
+		width: 320px;		
+	}
+	.left-block{
+		margin-left: 0%;
+		width: 100%;
+		margin-right: 0%;
+		text-align: center;	
+		margin-top: 0px;	
+	}
+	.main-left{
+		display: none;
+	}
+	.work-area-container{
+		float: left;
+		margin-right: 40px!important;
+	}
+	.bottom{
+		/*display: none;*/
+	}
+
+/*	.br-screen{
+		position:relative;
+		overflow:hidden;
+		width:320px;
+		height:385px;
+		float:left;
+		}*/
+
+	#my_work_area{
+		margin: -180px 0px 0px 0px !important;
+	}
+
+	.work-area-border{
+		width: 310px;
+	}
+	.work_area h1{
+		font-size: 18pt;
+	}
+
+	.nav_button{
+		display: block;
+	}
+
+	#main_page h1{
+		font-size: 18px;
+	}
+	.indexdata p span {
+		font-size: 10px;
+	}
+	.bottom{
+		margin-top: 0px;	
+	}
+	
+
+
+
+	#menu_list{
+		display: inline-block;
+		/*background-color: red;*/
+		width: 220px;
+		margin-top: 10px;
+		margin-left: -15px;
+		margin-bottom: 0px;
+	}
+	#menu_list li{
+		margin: 10px 10px 10px 10px;
+		display: block;
+		float: left;
+		font-size: 20px;
+	}
+
+	#menu_list li a{
+		text-decoration: none;
+		outline: none;
+	}
+	#menu_list li span{
+		margin-right: 17px;
+	}
+
+	.copyright{
+		text-align: left;
+		margin-top: 55px;
+	}
+
+	.bottom-menu-container{
+		height: 265px;	
+	}
+	.bottom-menu-container table{
+		display: none;
+	}
+	.bottom{
+		/*margin-top: -150px;*/
+	}
+	.bottom-sub-string{
+		margin-top: 200px;
+	}
+	.search-suggest{
+		width: 250px;
+	}
+
+
+
+	/*SET MOB MENU*/
+	.about_company{
+		margin-left: 0px;
+	}
+	.about_company td:first-of-type .menu_item{
+		margin-left: 10px;
+	}
+	.about_company, .services_, .equipment_, .vkotl_, .opros_{
+		background: none;
+		box-shadow: none;
+		margin-top: 0px;
+		margin-left: 0px;
+		background-color:rgba(0, 0, 0, 0.4);
+		width: 200px;
+		height: auto;
+		position: relative;
+	}
+	#about_company, #menu_vkotl_, #services_, #equipment_, #menu_vkotl_, #opros_{
+		text-align: center;
+		width: 50%;
+		/*display: block;*/
+		/*position: absolute;*/
+		top: 260px;
+		/*left: 0;*/
+		/*right: 0;*/
+		float: left;
+		margin: auto;
+		/*margin-left: 15%;*/
+	}
+	.menu_item{
+		padding: 10px 0px 15px 10px;
+		text-align: center;
+	}
+	.menu_item_list{
+		/*display: block;
+		width: 95%;
+		position: absolute;
+		top: 230px;
+		left: 0;
+		right: 0;
+		margin: auto;*/
+
+	}
+	.rent_banner{
+		min-width: 320px;
+	}
+
+	.rent_banner a{
+		width: 75%;
+		text-align: left;
+	}
+	.rent_banner1{
+		min-width: 320px;	
+	}
+
+	.rent_banner1 a{
+		width: 75%;
+		text-align: left;
+	}
+
+	.counters{
+		display: none;
+	}
+	#gallery ul {
+		text-align: center;
+	}
+	#gallery ul img{
+		margin-left: -10px;
+	}
+	.bx-yandex-view-map{
+		margin-left: -35px;
+	}
+	.after-text{
+		margin: 15px 85px 40px 20px;
+	}
+	.indexdata p span{
+		font-size: 12px;
+	}
+
+
+
+}

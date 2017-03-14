@@ -1,0 +1,1 @@
+<div style="float: left;"><img src="<?=SITE_TEMPLATE_PATH?>/images/main_banner/b211a.png"  /><h2>HP printer</h2></div>

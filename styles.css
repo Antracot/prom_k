@@ -1,0 +1,463 @@
+/*
+#	COLOR SCHEME
+#
+#	45424e - top: light-grey
+#	010101 - top: dark-grey
+#	d80000 - PROM RED
+#	bbe5f7 - PROM LIGHT BLUE
+#	a6a6a6 - FONT LIGHT GREY
+#
+#	TYPICAL GRADIENT
+#
+#	background-image: -webkit-linear-gradient(#1e9cf4, #0064aa);
+#	background-image: -moz-linear-gradient(#1e9cf4, #0064aa);
+#	background-image: -ms-linear-gradient(#1e9cf4, #0064aa);
+#	background-image: -o-linear-gradient(#1e9cf4, #0064aa);
+#	background-image: linear-gradient(#1e9cf4, #0064aa);
+#
+#	TYPICAL SHADOW
+#
+#	-moz-box-shadow: 0 0 4px rgba(10,10,10,0.5); 
+#	-webkit-box-shadow: 0 0 4px rgba(10,10,10,0.5); 
+#	box-shadow: 0 0 4px rgba(10,10,10,0.5); 
+#
+#	TYPICAL ROUNDED CORNERS
+#
+#	-webkit-border-radius: 5px 5px 5px 5px;
+#	-moz-border-radius: 5px 5px 5px 5px;
+#	border-radius: 5px 5px 5px 5px;
+#
+*/
+
+html {
+	height:100%; width:100%; min-height: 100%;
+	margin:0px; padding:0px;
+	min-width: 1200px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+body {
+	height:100%; width:100%; min-height: 100%;
+	margin:0px; padding:0px;
+	min-width: 1200px;
+/*	background: url("images/patterns/main_bg.png");*/
+font-family: Calibri, Arial, sans-serif;
+}
+
+img.sitebg {
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1200px;
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+}
+
+.indexdata {
+	margin-top:15px;
+	font-size:14px;
+}
+
+
+
+.about_header, .services_header, .equipment_header, .opros_header {
+    background-color: #be1e2f;
+    border-radius: 6px 6px 0 0;
+    display: block;
+    height: 43px;
+    padding: 10px 0 0 1px !important;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.menu_item {
+    display: block;
+    font-size: 12pt !important;
+    max-width: 180px;
+    padding: 10px 30px 25px 10px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+.main-menu {
+    color: #de0000;
+    float: left;
+font-family: Calibri, Arial, sans-serif;
+    font-size: 13pt;
+    margin: 26px 0 0 24px;
+    width: 670px;
+}
+
+.main-menu ul {
+margin:0px; padding:0px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+.main-menu ul li {
+float: left;
+list-style: none;
+margin-right: 14px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+.main-menu ul li a, .main-manu ul li a:hover {
+	color: #de0000;
+font-family: Calibri, Arial, sans-serif;
+}
+.main-menu ul li a:hover {
+	text-decoration:underline!important;
+font-family: Calibri, Arial, sans-serif;
+}
+.main-menu ul li a {
+	text-decoration:none!important;
+	display: inline-block;
+	max-width: 125px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+.sticker {
+	position:relative;
+	margin-left:-195px;
+}
+.after-text {
+	margin: 0px 85px 40px 400px;
+	min-height: 70px;
+}
+
+.left-block {
+	margin:25px;
+	width: 350px;
+}
+
+.top {
+	width:100%; height:157px;
+}
+
+
+.left-controls {
+	
+}
+.left-button {
+	background: url("images/buttons/controls_set2.png") no-repeat scroll 0px -122px;
+	height: 122px;
+	width:69px;
+	float:left;
+	cursor:pointer;
+	margin-top:20px;
+}
+div.left-button:hover { 
+	background: url("images/buttons/controls_set2.png") no-repeat scroll 0px 0px;
+}
+div.left-button:active { 
+	background: url("images/buttons/controls_set2.png") no-repeat scroll 0px -244px;
+}
+
+.left-breadcrumb {
+	
+}
+.right-controls {
+	
+}
+.right-button {
+	background: url("images/buttons/controls_set2.png") no-repeat scroll 0px -366px;
+	height: 122px;
+	width:69px;
+	float:right;
+	cursor:pointer;
+	margin-top:-24px;
+}
+div.right-button:hover { 
+	background: url("images/buttons/controls_set2.png") no-repeat scroll 0px -610px;
+}
+div.right-button:active { 
+	background: url("images/buttons/controls_set2.png") no-repeat scroll 0px -488px;
+}
+
+.right-breadcrumb {
+	
+}
+
+
+
+.top_battlements {
+	/*background: url("images/miscellaneous/scallops.png") repeat-x transparent;*/
+	height:15px;
+	width:100%;
+}
+.bottom_battlements {
+	/*background: url("/bitrix/templates/promkotel/images/miscellaneous/scallops.png") repeat-x 0px -15px transparent;*/
+	height: 15px;
+	width: 100%;
+	margin-top: 255px;
+}
+
+.container{
+	width:1200px; /* height:100%;*/ min-height: 100%;
+	padding: 0px; margin: 0px auto; 
+	font-family: MyriadPro, Tahoma, Arial, Sans; line-height:1.16em; color:#555;
+	background-position: 0px 285px;
+	-moz-box-shadow: 0 0 118px rgba(0,0,0,2); 
+	-webkit-box-shadow: 0 0 118px rgba(0,0,0,2); 
+	box-shadow: 0 0 118px rgba(0,0,0,2); 
+	background: url("images/patterns/main_bg.png");
+	position: relative;
+font-family: Calibri, Arial, sans-serif;
+}
+
+.work_area {
+	padding:10px;
+	margin:10px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+.bottom-holder  {height:294px; width:1200px; margin:0px auto; padding:0px; /*float:left;*/} /* 155+35=190px;*/
+.bottom {
+	border: none;
+	width:1200px; height:293px;
+	margin:-293px auto 0px;
+}
+.bottom-border-top {
+	position:absolute;
+	border: none; width:1200px; height:8px;
+	background-color: #858585;
+	-moz-box-shadow:inset  0px 2px 5px rgba(10,10,10,0.5); 
+	-webkit-box-shadow:inset  0px 2px 5px rgba(10,10,10,0.5); 
+	box-shadow:inset  0px 2px 5px rgba(10,10,10,0.5); 
+}
+.bottom-menu-container {
+	position:absolute;
+	width:1160px; height:166px;
+	margin-top:8px;	padding: 20px; 
+	border: none; 
+	color:#fff;
+	background: url("images/patterns/main_red_bg.png");
+	-moz-box-shadow:inset  0px 9px 72px rgba(10,10,10,0.5); 
+	-webkit-box-shadow:inset  0px 9px 72px rgba(10,10,10,0.5); 
+	box-shadow:inset  0px 9px 72px rgba(10,10,10,0.5); 
+	font: italic 14pt Cambria, "Times New Roman", Arial;
+}
+.bottom-menu-container table td.header a {
+	color:#fff;
+	font: italic 14pt Cambria, "Times New Roman", Arial;
+	text-decoration:underline;
+}
+
+.bottom-sub-string {
+	position:absolute;
+	margin-top:214px;
+	border: none; width:1160px;
+	padding:20px; height:40px;
+}
+
+img {border:0 none;}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Calibri, Arial, sans-serif; 
+	font-weight:normal;
+	line-height:1.2;
+}
+
+#main_page H1, #main_page h1, h1, H1 {
+	text-transform:none !important;
+	line-height: 1.1em;
+	font-family: Calibri, Arial, sans-serif;
+	color:#000;
+}
+
+h2, H2 {
+	color: #d80000;
+	text-transform: uppercase;
+}
+
+
+#main_page H1, #main_page h1, h1, H1 { font-size:22pt;}
+#main_page H2, #main_page h2 {display:inline;}
+h2, H2 { font-size:18pt !important; }
+h3 { font-size:120%; }
+h4 { font-size:120%; }
+
+h5 {
+	font-size:140%;
+	font-weight:normal;
+	margin:1.5em 0 1em 0;
+	padding:0;
+}
+
+h6 { font-size:100%; font-weight: bold;}
+
+hr, .hr 
+{
+	border-top:1px solid;
+	display:block;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+	margin:12px 0;
+	overflow:hidden;
+	padding:0;
+font-family: Calibri, Arial, sans-serif;
+}
+h1.h1-work{
+text-indent: 0px;
+margin: 2px;
+font-weight: 500;
+line-height: 23pt;
+color: #d80000;
+text-transform: uppercase;
+ font-size:27px;
+}
+.h2, H2, .h3, H3, .h4, H4, h1, h2, h3, h4, h5 {
+	text-indent: 0px;
+	margin:2px;
+	font-weight:500;
+}
+
+H2{
+	font-size:12px;
+	line-height:17pt;
+font-family: Calibri, Arial, sans-serif;
+}
+H3{
+	font-size: 20px;
+	line-height: 15pt;
+	padding-bottom:3px !important;
+font-family: Calibri, Arial, sans-serif;
+}
+H4, H5{
+	font-size:10px;
+	line-height:10px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+#workarea ul { list-style-type: none;  padding:0; margin: 0 0 0 1.5em;}
+#workarea ul li:before { content:'\2014\a0'; }
+#workarea ul li
+{
+	behavior:expression( !this.before  ? this.before = this.innerHTML = '<span class="dash">— </span>' + this.innerHTML :'' );
+	text-indent:-1.35em;
+	margin: 0.6em 0
+}
+
+#workarea ul ul { padding:0 0 0 1.5em; margin: 0.6em 0}
+
+.clear, .clr {clear:both; margin:0px; padding:0px; line-height:0pt;}
+
+@media print {
+/*
+#
+#	STYLES FOR PRINTING
+#
+*/
+}
+
+.about_company {
+height: 134px;
+}
+.bx_notavailable {
+  display:none !important;
+}
+.podbor_banner {
+	background: url('http://prom-kotel.ru/bitrix/templates/promkotel/images/miscellaneous/rent_banner.png') no-repeat;
+	color:#fff;
+	padding: 28px 10px 28px 125px;
+	height: 62px;
+font-family: Calibri, Arial, sans-serif;
+}
+.podbor_banner a {color:#fff; text-decoration:none;}
+.podbor_banner a:hover {text-decoration:underline;}
+
+
+
+.work-area-container {
+ margin: -1050px 0 40px 400px !important;
+}
+.text a{
+	color:#d80000;
+}
+.search-sorting a{
+	color:#d80000;
+}
+
+
+/*MOBILE MENU STYLE*/ 
+.nav_button {
+	width: 40px;
+	height: 18px;
+	margin: 60px auto; 
+	cursor: pointer;
+	position: absolute;
+	left: 15px;
+	z-index: 500;
+	display: none;
+}
+
+.nav_button #burger {
+	position: relative;
+	transform: rotate(0deg);
+	transition: .6s ease-in-out;
+}
+
+.nav_button #burger span {
+	display: block;
+	position: absolute;
+	height: 4px;
+	width: 100%;
+	background: #555555;
+	border-radius: 9px;
+	opacity: 1;
+	left: 0;
+	transform: rotate(0deg);
+	transition: .3s ease-in-out;
+}
+
+.nav_button #burger span:nth-child(1) {
+	top: 0;
+}
+
+.nav_button #burger span:nth-child(2), .nav_button #burger span:nth-child(3) {
+	top: 11px;
+}
+
+.nav_button #burger span:nth-child(4) {
+	top: 22px;
+}
+
+.nav_button #burger.active-sandwich span:nth-child(1) {
+	top: 18px;
+	width: 0%;
+	left: 50%;
+}
+
+.nav_button #burger.active-sandwich span:nth-child(2) {
+	transform: rotate(45deg);
+}
+
+.nav_button #burger.active-sandwich span:nth-child(3) {
+	transform: rotate(-45deg);
+}
+
+.nav_button #burger.active-sandwich span:nth-child(4) {
+	top: 18px;
+	width: 0%;
+	left: 50%;
+}
+
+.popup_menu_mobile{
+	background:rgba(178,178,178,1.0);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 450;
+	display: none;
+	text-align: center;
+}

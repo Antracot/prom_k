@@ -1,0 +1,57 @@
+.main-menu-subs {
+color:#777;
+margin: 10px 0px 20px 0px;
+}
+.main-menu-subs a{
+font-size:17px;
+}
+
+.main-menu-subs ul li {
+	display:block!important;
+}
+
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0px 0px 8px 10px; padding:0;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+
+	padding: 0px 12px;
+	background: url(../../../../images/miscellaneous/bottom-menu-arrow.png) 0px 7px no-repeat;
+	font: italic 14pt Cambria, "Times New Roman", Arial;
+}
+
+ul.left-menu li a
+{
+	font-size:100%;
+	color:#fff;
+	text-decoration:none;
+}
+
+ul.left-menu li a:visited
+{
+	color:#fff;
+}
+
+ul.left-menu li a:hover
+{
+	color:#fff;
+	text-decoration:underline;
+}
+
+
+ul.left-menu li a.selected:link, 
+ul.left-menu li a.selected:visited, 
+ul.left-menu li a.selected:active, 
+ul.left-menu li a.selected:hover
+{
+	color:#fff;
+	text-decoration:underline;
+}
+
+
